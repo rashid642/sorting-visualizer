@@ -1,3 +1,9 @@
+let width = screen.width;
+console.log(width);
+if(width < 500){
+    let sizeinput = document.getElementById("size-input");
+    sizeinput.max="100";
+}
 function swap(el1, el2){
     let temp=el1.style.height;
     el1.style.height=el2.style.height;
@@ -87,3 +93,4 @@ newArray.addEventListener("click",()=>{
     enableSizeSlider();
     createNewArray(arraysize.value);
 })
+
