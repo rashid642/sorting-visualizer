@@ -65,7 +65,7 @@ function createNewArray(noOfBars = 60){
     deleteChild();
     array = [];
     for(let i=0; i<noOfBars; i++){
-        array.push(Math.floor(Math.random()*250)+1);
+        array.push(Math.floor(Math.random()*225)+1);
     }
     console.log(array);
     for(let i=0; i<noOfBars; i++){
